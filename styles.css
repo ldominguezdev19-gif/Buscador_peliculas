@@ -37,3 +37,10 @@ body{
     border-radius: 8px;
     padding: 10px 15px;
 }
+
+.buscador button{
+    background-color: var(--texto-principal);
+    color: var(--tarjetas-inputs);
+    padding: 8px 12px;
+    border-radius: 8px;
+}
