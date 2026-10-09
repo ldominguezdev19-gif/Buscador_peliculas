@@ -17,3 +17,11 @@ body{
     background-color: var(--fondo-pagina);
     font-family: sans-serif;
 }
+
+.titulo{
+    color: var(--texto-principal);
+}
+
+.titulo p{
+    color: var(--texto-secundario);
+}
