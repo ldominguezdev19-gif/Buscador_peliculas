@@ -37,7 +37,6 @@ header, main{
 .buscador form{
     display: flex;
     gap: 8px;
-   
 }
 
 .buscador input{
@@ -49,12 +48,17 @@ header, main{
     padding: 10px 15px;
 }
 
-.buscador button{
+.btn-buscar{
     background-color: var(--texto-principal);
     color: var(--tarjetas-inputs);
     padding: 8px 12px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.btn-buscar:hover{
+    background-color: #a4a8b8;
+    border: 1px solid var(--tarjetas-inputs);
 }
 
 .buscador input:focus{
