@@ -20,7 +20,7 @@ body{
 
 .titulo{
     color: var(--texto-principal);
-    margin: 55px 120px;
+    padding: 55px 120px;
     
 }
 
