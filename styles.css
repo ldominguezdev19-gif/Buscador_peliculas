@@ -6,3 +6,9 @@
     --texto-secundario: #a4a8b8;
     --acento: #f5b942;
 }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
