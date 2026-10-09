@@ -27,3 +27,13 @@ body{
 .titulo p{
     color: var(--texto-secundario);
 }
+
+.buscador input{
+    margin: 55px 120px;
+    background-color: var(--tarjetas-inputs);
+    color: var(--texto-principal);
+    width: 470px;
+    border: 1px solid var(--borde-input);
+    border-radius: 8px;
+    padding: 10px 15px;
+}
