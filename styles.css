@@ -28,8 +28,13 @@ body{
     color: var(--texto-secundario);
 }
 
+.buscador{
+    display: flex;
+    gap: 8px;
+    margin-left: 120px;
+}
+
 .buscador input{
-    margin: 55px 120px;
     background-color: var(--tarjetas-inputs);
     color: var(--texto-principal);
     width: 470px;
@@ -43,4 +48,5 @@ body{
     color: var(--tarjetas-inputs);
     padding: 8px 12px;
     border-radius: 8px;
+    cursor: pointer;
 }
