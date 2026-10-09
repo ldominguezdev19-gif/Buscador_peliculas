@@ -50,3 +50,7 @@ body{
     border-radius: 8px;
     cursor: pointer;
 }
+
+.buscador button:focus{
+    border: 1px solid var(--texto-principal);
+}
