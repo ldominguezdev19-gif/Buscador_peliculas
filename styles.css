@@ -20,6 +20,8 @@ body{
 
 .titulo{
     color: var(--texto-principal);
+    margin: 55px 120px;
+    
 }
 
 .titulo p{
