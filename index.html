@@ -9,10 +9,16 @@
 <body>
     <header class="titulo">
         <h1>CINEBUSCADOR</h1>
+        <p>Encuentra cualquier pelicula por su nombre</p>
     </header>
     <main>
-        <section class="buscador"></section>
-        <section class="peliculas"></section>
+        <section class="buscador">
+            <form>
+                <input id="nombre-peli" type="text" placeholder="Escribe el nombre de una pelicula..." aria-label="Buscar pelicula">
+                <button type="submit" class="btn-buscar">Buscar</button>
+            </form>
+        </section>
+        <section id="lista-peliculas" class="peliculas"></section>
     </main>
 </body>
 </html>
