@@ -69,6 +69,7 @@ header, main{
     background-color: var(--tarjetas-inputs);
     border-radius: 14px;
     overflow: hidden;
+    position: relative;
 }
 
 .portada{
@@ -76,6 +77,16 @@ header, main{
     object-fit: cover;
     aspect-ratio: 2/3;
     display: block;
+}
+
+.ratio{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: var(--fondo-pagina);
+    color: var(--texto-principal);
+    padding: 6px;
+    border-radius: 999px;
 }
 
 .titulo-peli{
