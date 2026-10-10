@@ -7,4 +7,5 @@ async function buscarPeliculas(title) {
     return(datos.results)
 }
 
-const pelicula = document.getElementById("formulario")
+const formulario = document.getElementById("formulario")
+const inputBusqueda = document.getElementById("nombre-peli")
