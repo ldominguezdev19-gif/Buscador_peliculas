@@ -25,7 +25,7 @@ header, main{
 }
 
 .titulo{
-    color: var(--texto-principal);
+    color: var(--acento);
     font-size: 18px;
 }
 
@@ -107,6 +107,8 @@ padding: 16px;
 
 #desc-resultados{
     color: var(--texto-secundario);
+    margin-bottom: 18px;
+    margin-top: 18px;
 }
 
 .contenedor{
@@ -114,3 +116,4 @@ padding: 16px;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 24px;
 }
+
