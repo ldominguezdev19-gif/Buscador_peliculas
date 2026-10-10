@@ -64,3 +64,9 @@ header, main{
 .buscador input:focus{
     border: 1px solid var(--texto-principal);
 }
+
+.box-peli{
+    background-color: var(--tarjetas-inputs);
+    border-radius: 14px;
+    overflow: hidden;
+}
