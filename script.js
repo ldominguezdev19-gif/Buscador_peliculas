@@ -5,7 +5,7 @@ async function buscarPeliculas(title) {
     console.log(respuesta)
 
     const datos = await respuesta.json()
-    console.log(datos)
+    console.log(datos.results)
 }
 
 buscarPeliculas("Batman")
