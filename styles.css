@@ -26,12 +26,13 @@ header, main{
 
 .titulo{
     color: var(--texto-principal);
-    
+    font-size: 18px;
 }
 
 .titulo p{
     margin-top: 8px;
     color: var(--texto-secundario);
+    font-size: 14px;
 }
 
 .buscador form{
@@ -84,15 +85,26 @@ header, main{
     top: 12px;
     right: 12px;
     background-color: var(--fondo-pagina);
-    color: var(--texto-principal);
-    padding: 6px;
+    color: var(--acento);
+    padding: 10px;
     border-radius: 999px;
 }
 
 .titulo-peli{
     color: var(--texto-principal);
+    font-size: 18px;
 }
 
 .descripcion-peli{
+    color: var(--texto-secundario);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.info{
+padding: 16px;
+}
+
+#desc-resultados{
     color: var(--texto-secundario);
 }
