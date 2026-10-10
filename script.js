@@ -9,3 +9,8 @@ async function buscarPeliculas(title) {
 
 const formulario = document.getElementById("formulario")
 const inputBusqueda = document.getElementById("nombre-peli")
+
+formulario.addEventListener("submit", function(submitEvent){
+    submitEvent.preventDefault()
+    console.log(inputBusqueda.value)
+})
