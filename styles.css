@@ -70,3 +70,18 @@ header, main{
     border-radius: 14px;
     overflow: hidden;
 }
+
+.portada{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 2/3;
+    display: block;
+}
+
+.titulo-peli{
+    color: var(--texto-principal);
+}
+
+.descripcion-peli{
+    color: var(--texto-secundario);
+}
