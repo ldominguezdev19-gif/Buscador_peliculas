@@ -4,7 +4,5 @@ async function buscarPeliculas(title) {
     const respuesta = await fetch(url)
 
     const datos = await respuesta.json()
-    console.log(datos.results)
+    return(datos.results)
 }
-
-buscarPeliculas("Batman")
