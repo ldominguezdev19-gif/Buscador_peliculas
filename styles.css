@@ -93,6 +93,7 @@ header, main{
 .titulo-peli{
     color: var(--texto-principal);
     font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .descripcion-peli{
@@ -102,7 +103,7 @@ header, main{
 }
 
 .info{
-padding: 16px;
+    padding: 16px;
 }
 
 #desc-resultados{
