@@ -6,3 +6,5 @@ async function buscarPeliculas(title) {
     const datos = await respuesta.json()
     return(datos.results)
 }
+
+const pelicula = document.getElementById("formulario")
