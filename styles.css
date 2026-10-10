@@ -108,3 +108,9 @@ padding: 16px;
 #desc-resultados{
     color: var(--texto-secundario);
 }
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 24px;
+}
