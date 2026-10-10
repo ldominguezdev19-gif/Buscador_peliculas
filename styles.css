@@ -50,16 +50,19 @@ header, main{
 }
 
 .btn-buscar{
-    background-color: var(--texto-principal);
+    background-color: var(--acento);
+    border: none;
     color: var(--tarjetas-inputs);
-    padding: 8px 12px;
+    padding: 8px 20px;
+    font-weight: 700;
     border-radius: 8px;
     cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .btn-buscar:hover{
-    background-color: #a4a8b8;
-    border: 1px solid var(--tarjetas-inputs);
+    background-color: #ffd27a;
+    transform: scale(1.05);
 }
 
 .buscador input:focus{
