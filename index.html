@@ -1,59 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buscador</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header class="titulo">
-        <h1>CINEBUSCADOR</h1>
-        <p>Encuentra cualquier pelicula por su nombre</p>
+      <h1>CINEBUSCADOR</h1>
+      <p>Encuentra cualquier pelicula por su nombre</p>
     </header>
     <main>
-        <section class="buscador">
-            <form>
-                <input id="nombre-peli" type="text" placeholder="Escribe el nombre de una pelicula..." aria-label="Buscar pelicula" autocomplete="off">
-                <button type="submit" class="btn-buscar">Buscar</button>
-            </form>
-        </section>
-        
-        <section id="lista-peliculas" class="peliculas">
-            <h2 id="desc-resultados">Resultados para</h2>
-            <article class="box-peli">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10" alt="titulo de la pelicula" class="portada">
-                <span class="ratio">8.1</span>
-                <div class="info">
-                    <h3 class="titulo-peli">Rapidos y Furiosos</h3>
-                    <p class="descripcion-peli">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, sint porro dolor facilis mollitia quod ipsum et perspiciatis.</p>
-                </div>
-            </article>
-            <article class="box-peli">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10" alt="titulo de la pelicula" class="portada">
-                <span class="ratio">8.1</span>
-                <div class="info">
-                    <h3 class="titulo-peli">Rapidos y Furiosos</h3>
-                    <p class="descripcion-peli">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, sint porro dolor facilis mollitia quod ipsum et perspiciatis.</p>
-                </div>
-            </article>
-            <article class="box-peli">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10" alt="titulo de la pelicula" class="portada">
-                <span class="ratio">8.1</span>
-                <div class="info">
-                    <h3 class="titulo-peli">Rapidos y Furiosos</h3>
-                    <p class="descripcion-peli">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, sint porro dolor facilis mollitia quod ipsum et perspiciatis.</p>
-                </div>
-            </article>
-            <article class="box-peli">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10" alt="titulo de la pelicula" class="portada">
-                <span class="ratio">8.1</span>
-                <div class="info">
-                    <h3 class="titulo-peli">Rapidos y Furiosos</h3>
-                    <p class="descripcion-peli">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, sint porro dolor facilis mollitia quod ipsum et perspiciatis.</p>
-                </div>
-            </article>
-        </section>
+      <section class="buscador">
+        <form>
+          <input
+            id="nombre-peli"
+            type="text"
+            placeholder="Escribe el nombre de una pelicula..."
+            aria-label="Buscar pelicula"
+            autocomplete="off"
+          />
+          <button type="submit" class="btn-buscar">Buscar</button>
+        </form>
+      </section>
+
+      <section id="lista-peliculas" class="peliculas">
+        <h2 id="desc-resultados">Resultados para</h2>
+        <div class="contenedor">
+          <article class="box-peli">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10"
+              alt="titulo de la pelicula"
+              class="portada"
+            />
+            <span class="ratio">8.1</span>
+            <div class="info">
+              <h3 class="titulo-peli">Rapidos y Furiosos</h3>
+              <p class="descripcion-peli">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                sint porro dolor facilis mollitia quod ipsum et perspiciatis.
+              </p>
+            </div>
+          </article>
+          <article class="box-peli">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10"
+              alt="titulo de la pelicula"
+              class="portada"
+            />
+            <span class="ratio">8.1</span>
+            <div class="info">
+              <h3 class="titulo-peli">Rapidos y Furiosos</h3>
+              <p class="descripcion-peli">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                sint porro dolor facilis mollitia quod ipsum et perspiciatis.
+              </p>
+            </div>
+          </article>
+          <article class="box-peli">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10"
+              alt="titulo de la pelicula"
+              class="portada"
+            />
+            <span class="ratio">8.1</span>
+            <div class="info">
+              <h3 class="titulo-peli">Rapidos y Furiosos</h3>
+              <p class="descripcion-peli">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                sint porro dolor facilis mollitia quod ipsum et perspiciatis.
+              </p>
+            </div>
+          </article>
+          <article class="box-peli">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ehWD0ksaLtmUGWinAixJFpRC9NuJyZIyj_AWCZwREL5b5Aea68QE_PcR&s=10"
+              alt="titulo de la pelicula"
+              class="portada"
+            />
+            <span class="ratio">8.1</span>
+            <div class="info">
+              <h3 class="titulo-peli">Rapidos y Furiosos</h3>
+              <p class="descripcion-peli">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos,
+                sint porro dolor facilis mollitia quod ipsum et perspiciatis.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
