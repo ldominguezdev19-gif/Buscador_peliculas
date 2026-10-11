@@ -15,3 +15,5 @@ formulario.addEventListener("submit", async function(submitEvent){
     const peliculas = await buscarPeliculas(inputBusqueda.value)
     console.log(peliculas)
 })
+
+const contenedorPeliculas = document.getElementById("contenedor")
